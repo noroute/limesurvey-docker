@@ -1,6 +1,6 @@
 # LimeSurvey Docker container
 
-A LimeSurvey installation trying to re-use existing building blocks!
+A [LimeSurvey](https://www.limesurvey.org/) installation trying to re-use existing building blocks!
 
 ## Get started!
 
@@ -16,4 +16,5 @@ DB hostname is 'db', password is as copied.
  * Docker-Compose >=1.6
 
 ## NOTES
-The database contents is held in a local docker volume.
+ * ``limesurvey-docker`` uses the [mysql:5.7.11](https://github.com/docker-library/mysql/blob/4e022c06314ff6047dabc4abee2f222ae9ce564d/5.7/Dockerfile) container.
+ * The database' contents is held in a local docker volume.
