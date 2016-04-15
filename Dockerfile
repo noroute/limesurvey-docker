@@ -7,7 +7,7 @@ ENV www_path /var/www/html
 RUN docker-php-ext-install mbstring
 RUN docker-php-ext-install pdo_mysql
 
-RUN curl -L -o /limesurvey.tar.gz 'https://www.limesurvey.org/stable-release?download=1545:limesurvey250plus-build160311targz'
+RUN curl -L -o /limesurvey.tar.gz 'https://www.limesurvey.org/stable-release?download=1620:limesurvey250plus-build160415targz'
 WORKDIR ${www_path}
 RUN tar xfz /limesurvey.tar.gz
 
